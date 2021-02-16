@@ -1,20 +1,24 @@
-A solução foi dividida em 3 arquivos, com o intuito de facilitar a leitura e entendimento do código. Não foram utilizados
+   A solução foi dividida em 3 arquivos, com o intuito de facilitar a leitura e entendimento do código. Não foram utilizados
 try-except e nem lançamento de exceções, a fim de tornar o código mais simples e limpo.
 
-- Como testar a solução:
+# Como testar a solução:
 
 1. Tenha instalado em sua máquina o Python 3.8 64-bit ou uma versão superior;
 
 2. Em seu terminal, navegue até o diretorio onde se encontra o arquivo main.py;
 
 3. Em um S.O Linux, execute:
+```
 python3 main.py
+```
 
 4. Em um S.O Windows, execute:
+```
 python main.py
+```
 
 
-- Como modificar os dados de teste:
+# Como modificar os dados de teste:
 
 1. Abra o arquivo data.py;
 2. Dentro da função get_shopping_list é retornado uma lista de objetos ItemShopping, que possui os atributos 
